@@ -82,7 +82,7 @@ class Bakery
 		Pancake::Baker::PancakeBakerService::Stub.new(
 			config_dsn,
 			:this_channel_is_insecure,
-			timeout: 1,
+			timeout: 10,
 		)
 	end
 end
